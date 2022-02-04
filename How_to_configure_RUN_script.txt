@@ -1,0 +1,1 @@
+Run convertGCode_GUI.py on Windows 10 using the bat script. Download RUN_convertGCode_GUI.bat Edit the location of the installed Python and the location of your Python script convertGCode_GUI.py Click on RUN_convertGcode_gui.bat to launch the script automatically.
