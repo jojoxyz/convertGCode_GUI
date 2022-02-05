@@ -1,0 +1,40 @@
+If the image is too small or large, you can edit it in the .py script "SCALE". It depends on how big your object is (mm)
+
+If the projection has a radius instead of sharp edges, change the laser speed in the Arduino script #define LASER_QUALITY 64. Lesser value = sharper edges.
+
+// Star Correct input
+G00
+X210 Y10
+G01
+X335 Y392
+G01
+X10 Y628
+G01
+X411 Y628
+G01
+X535 Y1010
+G01
+X659 Y628
+G01
+X1061 Y628
+G01
+X736 Y392
+G01
+X860 Y10
+G01
+X535 Y246
+G01
+X210 Y10
+
+// Star Correct output
+0x11d,0x0,
+0x81cf,0x221,
+0x8000,0x372,
+0x823c,0x372,
+0x82ed,0x593,
+0x839e,0x372,
+0x85dc,0x372,
+0x840c,0x221,
+0x84bd,0x0,
+0x82ed,0x150,
+0x811d,0x0,
