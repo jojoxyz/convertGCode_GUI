@@ -1,3 +1,5 @@
+https://gcodetutor.com/cnc-program-simulator.html
+
 If the image is too small or large, you can edit it in the .py script "SCALE". It depends on how big your object is (mm)
 
 If the projection has a radius instead of sharp edges, change the laser speed in the Arduino script #define LASER_QUALITY 64. Lesser value = sharper edges.
