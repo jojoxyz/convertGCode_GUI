@@ -1,4 +1,6 @@
-https://gcodetutor.com/cnc-program-simulator.html
+Projekt Site                          https://www.instructables.com/Arduino-Laser-Show-With-Real-Galvos/
+
+Gcode Simulator Online                https://gcodetutor.com/cnc-program-simulator.html
 
 If the image is too small or large, you can edit it in the .py script "SCALE". It depends on how big your object is (mm)
 
